@@ -1,0 +1,25 @@
+generate_random_hexa
+"""
+The patrern of gexagones shapes is :
+        the third shape of each column represent the result of adding the first and second shape
+In the first and second columns only one triangle must be selected
+In the last column two triangles must be selected
+By calling the function generate_random_indexs, we have a matrix :
+[
+    "first_column" : [
+        shape_one, shape_two, shape_three
+
+    ]
+    "second_column" :[
+        shape_one, shape_two, shape_three
+
+    ]
+    "third_column" :[
+        shape_one, shape_two, shape_three
+
+    ]
+]
+To draw those shapes we simply need to calculate the cordonate of each shape
+See the file "shape_cordinate_explication.png"
+Finally we generate false responces then we save the question infos.
+"""
